@@ -27,10 +27,13 @@
     "i18n": "^0.15.0",
     "i18next": "^21.8.5",
     "i18next-browser-languagedetector": "^6.1.4",
+    "liquidjs": "^9.42.0",
+    "prismjs": "^1.29.0",
     "prop-types": "15.8.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-i18next": "^11.16.9"
+    "react-i18next": "^11.16.9",
+    "react-simple-code-editor": "^0.13.1"
   },
   "devDependencies": {
     "@chakra-ui/storybook-addon": "^4.0.12",

@@ -34,6 +34,12 @@ const Routes = () => {
         </Set>
       </Private>
 
+      <Private unauthenticated="home">
+        <Set wrap={StandardLayout}>
+          <Route path="/query/{id:Int}" page={QueryPage} name="query" />
+        </Set>
+      </Private>
+
       <Set wrap={StandardLayout}>
         <Route path="/" page={HomePage} name="home" />
         <Route notfound page={NotFoundPage} />
